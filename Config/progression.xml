@@ -1,0 +1,172 @@
+<configs>
+	<setattribute xpath="/progression/crafting_skills/crafting_skill[@name='craftingArmor']" name="max_level">155</setattribute>
+	<setattribute xpath="/progression/crafting_skills/crafting_skill[@name='craftingHarvestingTools']" name="max_level">200</setattribute>
+
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingArmor']">
+		<display_entry icon="armorClothHat" name_key="神圣棉甲" has_quality="true" unlock_level="26,30,35,40,45,50">
+			<unlock_entry item="SarmorClothHatT1,SarmorClothHatT2,SarmorClothHatT3,SarmorClothHatT4,SarmorClothHatT5,SarmorClothHatT6,SarmorClothHatT7,SarmorClothHatT8,SarmorClothHatT9,SarmorClothHatT10,
+			SarmorClothJacketT1,SarmorClothJacketT2,SarmorClothJacketT3,SarmorClothJacketT4,SarmorClothJacketT5,SarmorClothJacketT6,SarmorClothJacketT7,SarmorClothJacketT8,SarmorClothJacketT9,SarmorClothJacketT10,
+            SarmorClothPantsT1,SarmorClothPantsT2,SarmorClothPantsT3,SarmorClothPantsT4,SarmorClothPantsT5,SarmorClothPantsT6,SarmorClothPantsT7,SarmorClothPantsT8,SarmorClothPantsT9,SarmorClothPantsT10,
+			SarmorClothGlovesT1,SarmorClothGlovesT2,SarmorClothGlovesT3,SarmorClothGlovesT4,SarmorClothGlovesT5,SarmorClothGlovesT6,SarmorClothGlovesT7,SarmorClothGlovesT8,SarmorClothGlovesT9,SarmorClothGlovesT10,
+			SarmorClothBootsT1,SarmorClothBootsT2,SarmorClothBootsT3,SarmorClothBootsT4,SarmorClothBootsT5,SarmorClothBootsT6,SarmorClothBootsT7,SarmorClothBootsT8,SarmorClothBootsT9,SarmorClothBootsT10" unlock_tier="1" />
+		</display_entry>
+		<display_entry icon="armorScrapHelmet" name_key="神圣废甲" has_quality="true" unlock_level="26,30,35,40,45,50">
+			<unlock_entry item="SacredScrapBootsT1,SacredScrapBootsT2,SacredScrapBootsT3,SacredScrapBootsT4,SacredScrapBootsT5,SacredScrapBootsT6,SacredScrapBootsT7,SacredScrapBootsT8,SacredScrapBootsT9,SacredScrapBootsT10,
+			SacredScrapGlovesT1,SacredScrapGlovesT2,SacredScrapGlovesT3,SacredScrapGlovesT4,SacredScrapGlovesT5,SacredScrapGlovesT6,SacredScrapGlovesT7,SacredScrapGlovesT8,SacredScrapGlovesT9,SacredScrapGlovesT10,
+			SacredScrapLegsT1,SacredScrapLegsT2,SacredScrapLegsT3,SacredScrapLegsT4,SacredScrapLegsT5,SacredScrapLegsT6,SacredScrapLegsT7,SacredScrapLegsT8,SacredScrapLegsT9,SacredScrapLegsT10,
+			SacredScrapChestT1,SacredScrapChestT2,SacredScrapChestT3,SacredScrapChestT4,SacredScrapChestT5,SacredScrapChestT6,SacredScrapChestT7,SacredScrapChestT8,SacredScrapChestT9,SacredScrapChestT10,
+			SacredScrapHelmetT1,SacredScrapHelmetT2,SacredScrapHelmetT3,SacredScrapHelmetT4,SacredScrapHelmetT5,SacredScrapHelmetT6,SacredScrapHelmetT7,SacredScrapHelmetT8,SacredScrapHelmetT9,SacredScrapHelmetT10" unlock_tier="1" />
+		</display_entry>
+		<display_entry icon="armorLeatherHood" name_key="神圣皮甲" has_quality="true" unlock_level="76,80,85,90,95,100">
+			<unlock_entry item="SarmorLeatherHoodT1,SarmorLeatherHoodT2,SarmorLeatherHoodT3,SarmorLeatherHoodT4,SarmorLeatherHoodT5,SarmorLeatherHoodT6,SarmorLeatherHoodT7,SarmorLeatherHoodT8,SarmorLeatherHoodT9,SarmorLeatherHoodT10,
+			SarmorLeatherChestT1,SarmorLeatherChestT2,SarmorLeatherChestT3,SarmorLeatherChestT4,SarmorLeatherChestT5,SarmorLeatherChestT6,SarmorLeatherChestT7,SarmorLeatherChestT8,SarmorLeatherChestT9,SarmorLeatherChestT10,
+			SarmorLeatherPantsT1,SarmorLeatherPantsT2,SarmorLeatherPantsT3,SarmorLeatherPantsT4,SarmorLeatherPantsT5,SarmorLeatherPantsT6,SarmorLeatherPantsT7,SarmorLeatherPantsT8,SarmorLeatherPantsT9,SarmorLeatherPantsT10,
+			SarmorLeatherGlovesT1,SarmorLeatherGlovesT2,SarmorLeatherGlovesT3,SarmorLeatherGlovesT4,SarmorLeatherGlovesT5,SarmorLeatherGlovesT6,SarmorLeatherGlovesT7,SarmorLeatherGlovesT8,SarmorLeatherGlovesT9,SarmorLeatherGlovesT10,
+			SarmorLeatherBootsT1,SarmorLeatherBootsT2,SarmorLeatherBootsT3,SarmorLeatherBootsT4,SarmorLeatherBootsT5,SarmorLeatherBootsT6,SarmorLeatherBootsT7,SarmorLeatherBootsT8,SarmorLeatherBootsT9,SarmorLeatherBootsT10" unlock_tier="1" />
+		</display_entry>
+		<display_entry icon="armorIronHelmet" name_key="神圣铁甲" has_quality="true" unlock_level="76,80,85,90,95,100">
+			<unlock_entry item="SacredIronBootsT1,SacredIronBootsT2,SacredIronBootsT3,SacredIronBootsT4,SacredIronBootsT5,SacredIronBootsT6,SacredIronBootsT7,SacredIronBootsT8,SacredIronBootsT9,SacredIronBootsT10,
+			SacredIronGlovesT1,SacredIronGlovesT2,SacredIronGlovesT3,SacredIronGlovesT4,SacredIronGlovesT5,SacredIronGlovesT6,SacredIronGlovesT7,SacredIronGlovesT8,SacredIronGlovesT9,SacredIronGlovesT10,
+			SacredIronLegsT1,SacredIronLegsT2,SacredIronLegsT3,SacredIronLegsT4,SacredIronLegsT5,SacredIronLegsT6,SacredIronLegsT7,SacredIronLegsT8,SacredIronLegsT9,SacredIronLegsT10,
+			SacredIronChestT1,SacredIronChestT2,SacredIronChestT3,SacredIronChestT4,SacredIronChestT5,SacredIronChestT6,SacredIronChestT7,SacredIronChestT8,SacredIronChestT9,SacredIronChestT10,
+			SacredIronHelmetT1,SacredIronHelmetT2,SacredIronHelmetT3,SacredIronHelmetT4,SacredIronHelmetT5,SacredIronHelmetT6,SacredIronHelmetT7,SacredIronHelmetT8,SacredIronHelmetT9,SacredIronHelmetT10" unlock_tier="1" />
+		</display_entry>
+		<display_entry icon="armorMilitaryHelmet" name_key="神圣军甲" has_quality="true" unlock_level="126,130,135,140,145,150">
+			<unlock_entry item="SarmorMilitaryHelmetT1,SarmorMilitaryHelmetT2,SarmorMilitaryHelmetT3,SarmorMilitaryHelmetT4,SarmorMilitaryHelmetT5,SarmorMilitaryHelmetT6,SarmorMilitaryHelmetT7,SarmorMilitaryHelmetT8,SarmorMilitaryHelmetT9,SarmorMilitaryHelmetT10,
+			SarmorMilitaryVestT1,SarmorMilitaryVestT2,SarmorMilitaryVestT3,SarmorMilitaryVestT4,SarmorMilitaryVestT5,SarmorMilitaryVestT6,SarmorMilitaryVestT7,SarmorMilitaryVestT8,SarmorMilitaryVestT9,SarmorMilitaryVestT10,
+			SarmorMilitaryLegsT1,SarmorMilitaryLegsT2,SarmorMilitaryLegsT3,SarmorMilitaryLegsT4,SarmorMilitaryLegsT5,SarmorMilitaryLegsT6,SarmorMilitaryLegsT7,SarmorMilitaryLegsT8,SarmorMilitaryLegsT9,SarmorMilitaryLegsT10,
+			SarmorMilitaryGlovesT1,SarmorMilitaryGlovesT2,SarmorMilitaryGlovesT3,SarmorMilitaryGlovesT4,SarmorMilitaryGlovesT5,SarmorMilitaryGlovesT6,SarmorMilitaryGlovesT7,SarmorMilitaryGlovesT8,SarmorMilitaryGlovesT9,SarmorMilitaryGlovesT10,
+			SarmorMilitaryBootsT1,SarmorMilitaryBootsT2,SarmorMilitaryBootsT3,SarmorMilitaryBootsT4,SarmorMilitaryBootsT5,SarmorMilitaryBootsT6,SarmorMilitaryBootsT7,SarmorMilitaryBootsT8,SarmorMilitaryBootsT9,SarmorMilitaryBootsT10" unlock_tier="1" />
+		</display_entry>
+		<display_entry icon="armorSteelHelmet" name_key="神圣钢甲" has_quality="true" unlock_level="126,130,135,140,145,150">
+			<unlock_entry item="SacredSteelBootsT1,SacredSteelBootsT2,SacredSteelBootsT3,SacredSteelBootsT4,SacredSteelBootsT5,SacredSteelBootsT6,SacredSteelBootsT7,SacredSteelBootsT8,SacredSteelBootsT9,SacredSteelBootsT10,
+			SacredSteelGlovesT1,SacredSteelGlovesT2,SacredSteelGlovesT3,SacredSteelGlovesT4,SacredSteelGlovesT5,SacredSteelGlovesT6,SacredSteelGlovesT7,SacredSteelGlovesT8,SacredSteelGlovesT9,SacredSteelGlovesT10,
+			SacredSteelLegsT1,SacredSteelLegsT2,SacredSteelLegsT3,SacredSteelLegsT4,SacredSteelLegsT5,SacredSteelLegsT6,SacredSteelLegsT7,SacredSteelLegsT8,SacredSteelLegsT9,SacredSteelLegsT10,
+			SacredSteelChestT1,SacredSteelChestT2,SacredSteelChestT3,SacredSteelChestT4,SacredSteelChestT5,SacredSteelChestT6,SacredSteelChestT7,SacredSteelChestT8,SacredSteelChestT9,SacredSteelChestT10,
+			SacredSteelHelmetT1,SacredSteelHelmetT2,SacredSteelHelmetT3,SacredSteelHelmetT4,SacredSteelHelmetT5,SacredSteelHelmetT6,SacredSteelHelmetT7,SacredSteelHelmetT8,SacredSteelHelmetT9,SacredSteelHelmetT10" unlock_tier="1" />
+		</display_entry>
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="26,155" value="1" tags="
+			SarmorClothHatT1,SarmorClothHatT2,SarmorClothHatT3,SarmorClothHatT4,SarmorClothHatT5,SarmorClothHatT6,SarmorClothHatT7,SarmorClothHatT8,SarmorClothHatT9,SarmorClothHatT10,
+			SarmorClothJacketT1,SarmorClothJacketT2,SarmorClothJacketT3,SarmorClothJacketT4,SarmorClothJacketT5,SarmorClothJacketT6,SarmorClothJacketT7,SarmorClothJacketT8,SarmorClothJacketT9,SarmorClothJacketT10,
+            SarmorClothPantsT1,SarmorClothPantsT2,SarmorClothPantsT3,SarmorClothPantsT4,SarmorClothPantsT5,SarmorClothPantsT6,SarmorClothPantsT7,SarmorClothPantsT8,SarmorClothPantsT9,SarmorClothPantsT10,
+			SarmorClothGlovesT1,SarmorClothGlovesT2,SarmorClothGlovesT3,SarmorClothGlovesT4,SarmorClothGlovesT5,SarmorClothGlovesT6,SarmorClothGlovesT7,SarmorClothGlovesT8,SarmorClothGlovesT9,SarmorClothGlovesT10,
+			SarmorClothBootsT1,SarmorClothBootsT2,SarmorClothBootsT3,SarmorClothBootsT4,SarmorClothBootsT5,SarmorClothBootsT6,SarmorClothBootsT7,SarmorClothBootsT8,SarmorClothBootsT9,SarmorClothBootsT10" />
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="26,155" value="1" tags="
+			SacredScrapBootsT1,SacredScrapBootsT2,SacredScrapBootsT3,SacredScrapBootsT4,SacredScrapBootsT5,SacredScrapBootsT6,SacredScrapBootsT7,SacredScrapBootsT8,SacredScrapBootsT9,SacredScrapBootsT10,
+			SacredScrapGlovesT1,SacredScrapGlovesT2,SacredScrapGlovesT3,SacredScrapGlovesT4,SacredScrapGlovesT5,SacredScrapGlovesT6,SacredScrapGlovesT7,SacredScrapGlovesT8,SacredScrapGlovesT9,SacredScrapGlovesT10,
+			SacredScrapLegsT1,SacredScrapLegsT2,SacredScrapLegsT3,SacredScrapLegsT4,SacredScrapLegsT5,SacredScrapLegsT6,SacredScrapLegsT7,SacredScrapLegsT8,SacredScrapLegsT9,SacredScrapLegsT10,
+			SacredScrapChestT1,SacredScrapChestT2,SacredScrapChestT3,SacredScrapChestT4,SacredScrapChestT5,SacredScrapChestT6,SacredScrapChestT7,SacredScrapChestT8,SacredScrapChestT9,SacredScrapChestT10,
+			SacredScrapHelmetT1,SacredScrapHelmetT2,SacredScrapHelmetT3,SacredScrapHelmetT4,SacredScrapHelmetT5,SacredScrapHelmetT6,SacredScrapHelmetT7,SacredScrapHelmetT8,SacredScrapHelmetT9,SacredScrapHelmetT10" />
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="76,155" value="1" tags="
+			SarmorLeatherHoodT1,SarmorLeatherHoodT2,SarmorLeatherHoodT3,SarmorLeatherHoodT4,SarmorLeatherHoodT5,SarmorLeatherHoodT6,SarmorLeatherHoodT7,SarmorLeatherHoodT8,SarmorLeatherHoodT9,SarmorLeatherHoodT10,
+			SarmorLeatherChestT1,SarmorLeatherChestT2,SarmorLeatherChestT3,SarmorLeatherChestT4,SarmorLeatherChestT5,SarmorLeatherChestT6,SarmorLeatherChestT7,SarmorLeatherChestT8,SarmorLeatherChestT9,SarmorLeatherChestT10,
+			SarmorLeatherPantsT1,SarmorLeatherPantsT2,SarmorLeatherPantsT3,SarmorLeatherPantsT4,SarmorLeatherPantsT5,SarmorLeatherPantsT6,SarmorLeatherPantsT7,SarmorLeatherPantsT8,SarmorLeatherPantsT9,SarmorLeatherPantsT10,
+			SarmorLeatherGlovesT1,SarmorLeatherGlovesT2,SarmorLeatherGlovesT3,SarmorLeatherGlovesT4,SarmorLeatherGlovesT5,SarmorLeatherGlovesT6,SarmorLeatherGlovesT7,SarmorLeatherGlovesT8,SarmorLeatherGlovesT9,SarmorLeatherGlovesT10,
+			SarmorLeatherBootsT1,SarmorLeatherBootsT2,SarmorLeatherBootsT3,SarmorLeatherBootsT4,SarmorLeatherBootsT5,SarmorLeatherBootsT6,SarmorLeatherBootsT7,SarmorLeatherBootsT8,SarmorLeatherBootsT9,SarmorLeatherBootsT10" />
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="76,155" value="1" tags="
+			SacredIronBootsT1,SacredIronBootsT2,SacredIronBootsT3,SacredIronBootsT4,SacredIronBootsT5,SacredIronBootsT6,SacredIronBootsT7,SacredIronBootsT8,SacredIronBootsT9,SacredIronBootsT10,
+			SacredIronGlovesT1,SacredIronGlovesT2,SacredIronGlovesT3,SacredIronGlovesT4,SacredIronGlovesT5,SacredIronGlovesT6,SacredIronGlovesT7,SacredIronGlovesT8,SacredIronGlovesT9,SacredIronGlovesT10,
+			SacredIronLegsT1,SacredIronLegsT2,SacredIronLegsT3,SacredIronLegsT4,SacredIronLegsT5,SacredIronLegsT6,SacredIronLegsT7,SacredIronLegsT8,SacredIronLegsT9,SacredIronLegsT10,
+			SacredIronChestT1,SacredIronChestT2,SacredIronChestT3,SacredIronChestT4,SacredIronChestT5,SacredIronChestT6,SacredIronChestT7,SacredIronChestT8,SacredIronChestT9,SacredIronChestT10,
+			SacredIronHelmetT1,SacredIronHelmetT2,SacredIronHelmetT3,SacredIronHelmetT4,SacredIronHelmetT5,SacredIronHelmetT6,SacredIronHelmetT7,SacredIronHelmetT8,SacredIronHelmetT9,SacredIronHelmetT10" />
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="126,155" value="1" tags="
+			SarmorMilitaryHelmetT1,SarmorMilitaryHelmetT2,SarmorMilitaryHelmetT3,SarmorMilitaryHelmetT4,SarmorMilitaryHelmetT5,SarmorMilitaryHelmetT6,SarmorMilitaryHelmetT7,SarmorMilitaryHelmetT8,SarmorMilitaryHelmetT9,SarmorMilitaryHelmetT10,
+			SarmorMilitaryVestT1,SarmorMilitaryVestT2,SarmorMilitaryVestT3,SarmorMilitaryVestT4,SarmorMilitaryVestT5,SarmorMilitaryVestT6,SarmorMilitaryVestT7,SarmorMilitaryVestT8,SarmorMilitaryVestT9,SarmorMilitaryVestT10,
+			SarmorMilitaryLegsT1,SarmorMilitaryLegsT2,SarmorMilitaryLegsT3,SarmorMilitaryLegsT4,SarmorMilitaryLegsT5,SarmorMilitaryLegsT6,SarmorMilitaryLegsT7,SarmorMilitaryLegsT8,SarmorMilitaryLegsT9,SarmorMilitaryLegsT10,
+			SarmorMilitaryGlovesT1,SarmorMilitaryGlovesT2,SarmorMilitaryGlovesT3,SarmorMilitaryGlovesT4,SarmorMilitaryGlovesT5,SarmorMilitaryGlovesT6,SarmorMilitaryGlovesT7,SarmorMilitaryGlovesT8,SarmorMilitaryGlovesT9,SarmorMilitaryGlovesT10,
+			SarmorMilitaryBootsT1,SarmorMilitaryBootsT2,SarmorMilitaryBootsT3,SarmorMilitaryBootsT4,SarmorMilitaryBootsT5,SarmorMilitaryBootsT6,SarmorMilitaryBootsT7,SarmorMilitaryBootsT8,SarmorMilitaryBootsT9,SarmorMilitaryBootsT10" />
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="126,155" value="1" tags="
+			SacredSteelBootsT1,SacredSteelBootsT2,SacredSteelBootsT3,SacredSteelBootsT4,SacredSteelBootsT5,SacredSteelBootsT6,SacredSteelBootsT7,SacredSteelBootsT8,SacredSteelBootsT9,SacredSteelBootsT10,
+			SacredSteelGlovesT1,SacredSteelGlovesT2,SacredSteelGlovesT3,SacredSteelGlovesT4,SacredSteelGlovesT5,SacredSteelGlovesT6,SacredSteelGlovesT7,SacredSteelGlovesT8,SacredSteelGlovesT9,SacredSteelGlovesT10,
+			SacredSteelLegsT1,SacredSteelLegsT2,SacredSteelLegsT3,SacredSteelLegsT4,SacredSteelLegsT5,SacredSteelLegsT6,SacredSteelLegsT7,SacredSteelLegsT8,SacredSteelLegsT9,SacredSteelLegsT10,
+			SacredSteelChestT1,SacredSteelChestT2,SacredSteelChestT3,SacredSteelChestT4,SacredSteelChestT5,SacredSteelChestT6,SacredSteelChestT7,SacredSteelChestT8,SacredSteelChestT9,SacredSteelChestT10,
+			SacredSteelHelmetT1,SacredSteelHelmetT2,SacredSteelHelmetT3,SacredSteelHelmetT4,SacredSteelHelmetT5,SacredSteelHelmetT6,SacredSteelHelmetT7,SacredSteelHelmetT8,SacredSteelHelmetT9,SacredSteelHelmetT10" />
+			<passive_effect name="CraftingTier" operation="base_add" level="30,35,40,45,50,155" value="1,2,3,4,5,5" tags="
+			SarmorClothHatT1,SarmorClothHatT2,SarmorClothHatT3,SarmorClothHatT4,SarmorClothHatT5,SarmorClothHatT6,SarmorClothHatT7,SarmorClothHatT8,SarmorClothHatT9,SarmorClothHatT10,
+			SarmorClothJacketT1,SarmorClothJacketT2,SarmorClothJacketT3,SarmorClothJacketT4,SarmorClothJacketT5,SarmorClothJacketT6,SarmorClothJacketT7,SarmorClothJacketT8,SarmorClothJacketT9,SarmorClothJacketT10,
+            SarmorClothPantsT1,SarmorClothPantsT2,SarmorClothPantsT3,SarmorClothPantsT4,SarmorClothPantsT5,SarmorClothPantsT6,SarmorClothPantsT7,SarmorClothPantsT8,SarmorClothPantsT9,SarmorClothPantsT10,
+			SarmorClothGlovesT1,SarmorClothGlovesT2,SarmorClothGlovesT3,SarmorClothGlovesT4,SarmorClothGlovesT5,SarmorClothGlovesT6,SarmorClothGlovesT7,SarmorClothGlovesT8,SarmorClothGlovesT9,SarmorClothGlovesT10,
+			SarmorClothBootsT1,SarmorClothBootsT2,SarmorClothBootsT3,SarmorClothBootsT4,SarmorClothBootsT5,SarmorClothBootsT6,SarmorClothBootsT7,SarmorClothBootsT8,SarmorClothBootsT9,SarmorClothBootsT10" />
+			<passive_effect name="CraftingTier" operation="base_add" level="30,35,40,45,50,155" value="1,2,3,4,5,5" tags="
+			SacredScrapBootsT1,SacredScrapBootsT2,SacredScrapBootsT3,SacredScrapBootsT4,SacredScrapBootsT5,SacredScrapBootsT6,SacredScrapBootsT7,SacredScrapBootsT8,SacredScrapBootsT9,SacredScrapBootsT10,
+			SacredScrapGlovesT1,SacredScrapGlovesT2,SacredScrapGlovesT3,SacredScrapGlovesT4,SacredScrapGlovesT5,SacredScrapGlovesT6,SacredScrapGlovesT7,SacredScrapGlovesT8,SacredScrapGlovesT9,SacredScrapGlovesT10,
+			SacredScrapLegsT1,SacredScrapLegsT2,SacredScrapLegsT3,SacredScrapLegsT4,SacredScrapLegsT5,SacredScrapLegsT6,SacredScrapLegsT7,SacredScrapLegsT8,SacredScrapLegsT9,SacredScrapLegsT10,
+			SacredScrapChestT1,SacredScrapChestT2,SacredScrapChestT3,SacredScrapChestT4,SacredScrapChestT5,SacredScrapChestT6,SacredScrapChestT7,SacredScrapChestT8,SacredScrapChestT9,SacredScrapChestT10,
+			SacredScrapHelmetT1,SacredScrapHelmetT2,SacredScrapHelmetT3,SacredScrapHelmetT4,SacredScrapHelmetT5,SacredScrapHelmetT6,SacredScrapHelmetT7,SacredScrapHelmetT8,SacredScrapHelmetT9,SacredScrapHelmetT10" />
+			<passive_effect name="CraftingTier" operation="base_add" level="80,85,90,95,100,155" value="1,2,3,4,5,5" tags="
+			SarmorLeatherHoodT1,SarmorLeatherHoodT2,SarmorLeatherHoodT3,SarmorLeatherHoodT4,SarmorLeatherHoodT5,SarmorLeatherHoodT6,SarmorLeatherHoodT7,SarmorLeatherHoodT8,SarmorLeatherHoodT9,SarmorLeatherHoodT10,
+			SarmorLeatherChestT1,SarmorLeatherChestT2,SarmorLeatherChestT3,SarmorLeatherChestT4,SarmorLeatherChestT5,SarmorLeatherChestT6,SarmorLeatherChestT7,SarmorLeatherChestT8,SarmorLeatherChestT9,SarmorLeatherChestT10,
+			SarmorLeatherPantsT1,SarmorLeatherPantsT2,SarmorLeatherPantsT3,SarmorLeatherPantsT4,SarmorLeatherPantsT5,SarmorLeatherPantsT6,SarmorLeatherPantsT7,SarmorLeatherPantsT8,SarmorLeatherPantsT9,SarmorLeatherPantsT10,
+			SarmorLeatherGlovesT1,SarmorLeatherGlovesT2,SarmorLeatherGlovesT3,SarmorLeatherGlovesT4,SarmorLeatherGlovesT5,SarmorLeatherGlovesT6,SarmorLeatherGlovesT7,SarmorLeatherGlovesT8,SarmorLeatherGlovesT9,SarmorLeatherGlovesT10,
+			SarmorLeatherBootsT1,SarmorLeatherBootsT2,SarmorLeatherBootsT3,SarmorLeatherBootsT4,SarmorLeatherBootsT5,SarmorLeatherBootsT6,SarmorLeatherBootsT7,SarmorLeatherBootsT8,SarmorLeatherBootsT9,SarmorLeatherBootsT10" />
+			<passive_effect name="CraftingTier" operation="base_add" level="80,85,90,95,100,155" value="1,2,3,4,5,5" tags="
+			SacredIronBootsT1,SacredIronBootsT2,SacredIronBootsT3,SacredIronBootsT4,SacredIronBootsT5,SacredIronBootsT6,SacredIronBootsT7,SacredIronBootsT8,SacredIronBootsT9,SacredIronBootsT10,
+			SacredIronGlovesT1,SacredIronGlovesT2,SacredIronGlovesT3,SacredIronGlovesT4,SacredIronGlovesT5,SacredIronGlovesT6,SacredIronGlovesT7,SacredIronGlovesT8,SacredIronGlovesT9,SacredIronGlovesT10,
+			SacredIronLegsT1,SacredIronLegsT2,SacredIronLegsT3,SacredIronLegsT4,SacredIronLegsT5,SacredIronLegsT6,SacredIronLegsT7,SacredIronLegsT8,SacredIronLegsT9,SacredIronLegsT10,
+			SacredIronChestT1,SacredIronChestT2,SacredIronChestT3,SacredIronChestT4,SacredIronChestT5,SacredIronChestT6,SacredIronChestT7,SacredIronChestT8,SacredIronChestT9,SacredIronChestT10,
+			SacredIronHelmetT1,SacredIronHelmetT2,SacredIronHelmetT3,SacredIronHelmetT4,SacredIronHelmetT5,SacredIronHelmetT6,SacredIronHelmetT7,SacredIronHelmetT8,SacredIronHelmetT9,SacredIronHelmetT10" />
+			<passive_effect name="CraftingTier" operation="base_add" level="130,135,140,145,150,155" value="1,2,3,4,5,5" tags="
+			SarmorMilitaryHelmetT1,SarmorMilitaryHelmetT2,SarmorMilitaryHelmetT3,SarmorMilitaryHelmetT4,SarmorMilitaryHelmetT5,SarmorMilitaryHelmetT6,SarmorMilitaryHelmetT7,SarmorMilitaryHelmetT8,SarmorMilitaryHelmetT9,SarmorMilitaryHelmetT10,
+			SarmorMilitaryVestT1,SarmorMilitaryVestT2,SarmorMilitaryVestT3,SarmorMilitaryVestT4,SarmorMilitaryVestT5,SarmorMilitaryVestT6,SarmorMilitaryVestT7,SarmorMilitaryVestT8,SarmorMilitaryVestT9,SarmorMilitaryVestT10,
+			SarmorMilitaryLegsT1,SarmorMilitaryLegsT2,SarmorMilitaryLegsT3,SarmorMilitaryLegsT4,SarmorMilitaryLegsT5,SarmorMilitaryLegsT6,SarmorMilitaryLegsT7,SarmorMilitaryLegsT8,SarmorMilitaryLegsT9,SarmorMilitaryLegsT10,
+			SarmorMilitaryGlovesT1,SarmorMilitaryGlovesT2,SarmorMilitaryGlovesT3,SarmorMilitaryGlovesT4,SarmorMilitaryGlovesT5,SarmorMilitaryGlovesT6,SarmorMilitaryGlovesT7,SarmorMilitaryGlovesT8,SarmorMilitaryGlovesT9,SarmorMilitaryGlovesT10,
+			SarmorMilitaryBootsT1,SarmorMilitaryBootsT2,SarmorMilitaryBootsT3,SarmorMilitaryBootsT4,SarmorMilitaryBootsT5,SarmorMilitaryBootsT6,SarmorMilitaryBootsT7,SarmorMilitaryBootsT8,SarmorMilitaryBootsT9,SarmorMilitaryBootsT10" />
+			<passive_effect name="CraftingTier" operation="base_add" level="130,135,140,145,150,155" value="1,2,3,4,5,5" tags="
+			SacredSteelBootsT1,SacredSteelBootsT2,SacredSteelBootsT3,SacredSteelBootsT4,SacredSteelBootsT5,SacredSteelBootsT6,SacredSteelBootsT7,SacredSteelBootsT8,SacredSteelBootsT9,SacredSteelBootsT10,
+			SacredSteelGlovesT1,SacredSteelGlovesT2,SacredSteelGlovesT3,SacredSteelGlovesT4,SacredSteelGlovesT5,SacredSteelGlovesT6,SacredSteelGlovesT7,SacredSteelGlovesT8,SacredSteelGlovesT9,SacredSteelGlovesT10,
+			SacredSteelLegsT1,SacredSteelLegsT2,SacredSteelLegsT3,SacredSteelLegsT4,SacredSteelLegsT5,SacredSteelLegsT6,SacredSteelLegsT7,SacredSteelLegsT8,SacredSteelLegsT9,SacredSteelLegsT10,
+			SacredSteelChestT1,SacredSteelChestT2,SacredSteelChestT3,SacredSteelChestT4,SacredSteelChestT5,SacredSteelChestT6,SacredSteelChestT7,SacredSteelChestT8,SacredSteelChestT9,SacredSteelChestT10,
+			SacredSteelHelmetT1,SacredSteelHelmetT2,SacredSteelHelmetT3,SacredSteelHelmetT4,SacredSteelHelmetT5,SacredSteelHelmetT6,SacredSteelHelmetT7,SacredSteelHelmetT8,SacredSteelHelmetT9,SacredSteelHelmetT10" />
+		</effect_group>
+	</append>
+
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingHarvestingTools']">
+		<display_entry icon="meleeToolRepairT0StoneAxe" name_key="神圣石斧工具" has_quality="true" unlock_level="26,30,35,40,45,50">
+			<unlock_entry item="SacredStoneAxeT1,SacredStoneAxeT2,SacredStoneAxeT3,SacredStoneAxeT4,SacredStoneAxeT5,SacredStoneAxeT6,SacredStoneAxeT7,SacredStoneAxeT8,SacredStoneAxeT9,SacredStoneAxeT10" unlock_tier="1" />
+		</display_entry>
+		<display_entry icon="meleeToolRepairT0StoneAxe" name_key="神圣石铲工具" has_quality="true" unlock_level="26,30,35,40,45,50">
+			<unlock_entry item="SacredStoneShovelT1,SacredStoneShovelT2,SacredStoneShovelT3,SacredStoneShovelT4,SacredStoneShovelT5,SacredStoneShovelT6,SacredStoneShovelT7,SacredStoneShovelT8,SacredStoneShovelT9,SacredStoneShovelT10" unlock_tier="1" />
+		</display_entry>
+		<display_entry icon="meleeToolPickT1IronPickaxe" name_key="神圣铁镐工具" has_quality="true" unlock_level="76,80,85,90,95,100">
+			<unlock_entry item="SacredIronPickaxeT1,SacredIronPickaxeT2,SacredIronPickaxeT3,SacredIronPickaxeT4,SacredIronPickaxeT5,SacredIronPickaxeT6,SacredIronPickaxeT7,SacredIronPickaxeT8,SacredIronPickaxeT9,SacredIronPickaxeT10" unlock_tier="1" />
+		</display_entry>
+		<display_entry icon="meleeToolShovelT1IronShovel" name_key="神圣铁铲工具" has_quality="true" unlock_level="76,80,85,90,95,100">
+			<unlock_entry item="SacredIronShovelT1,SacredIronShovelT2,SacredIronShovelT3,SacredIronShovelT4,SacredIronShovelT5,SacredIronShovelT6,SacredIronShovelT7,SacredIronShovelT8,SacredIronShovelT9,SacredIronShovelT10" unlock_tier="1" />
+		</display_entry>
+		<display_entry icon="meleeToolAxeT1IronFireaxe" name_key="神圣铁斧工具" has_quality="true" unlock_level="76,80,85,90,95,100">
+			<unlock_entry item="SacredIronAxeT1,SacredIronAxeT2,SacredIronAxeT3,SacredIronAxeT4,SacredIronAxeT5,SacredIronAxeT6,SacredIronAxeT7,SacredIronAxeT8,SacredIronAxeT9,SacredIronAxeT10" unlock_tier="1" />
+		</display_entry>
+		<display_entry icon="meleeToolPickT2SteelPickaxe" name_key="神圣钢镐工具" has_quality="true" unlock_level="126,130,135,140,145,150">
+			<unlock_entry item="SacredSteelPickaxeT1,SacredSteelPickaxeT2,SacredSteelPickaxeT3,SacredSteelPickaxeT4,SacredSteelPickaxeT5,SacredSteelPickaxeT6,SacredSteelPickaxeT7,SacredSteelPickaxeT8,SacredSteelPickaxeT9,SacredSteelPickaxeT10" unlock_tier="1" />
+		</display_entry>
+		<display_entry icon="meleeToolShovelT1IronShovel" name_key="神圣钢铲工具" has_quality="true" unlock_level="126,130,135,140,145,150">
+			<unlock_entry item="SacredSteelShovelT1,SacredSteelShovelT2,SacredSteelShovelT3,SacredSteelShovelT4,SacredSteelShovelT5,SacredSteelShovelT6,SacredSteelShovelT7,SacredSteelShovelT8,SacredSteelShovelT9,SacredSteelShovelT10" unlock_tier="1" />
+		</display_entry>
+		<display_entry icon="meleeToolAxeT2SteelAxe" name_key="神圣钢斧工具" has_quality="true" unlock_level="126,130,135,140,145,150">
+			<unlock_entry item="SacredSteelAxeT1,SacredSteelAxeT2,SacredSteelAxeT3,SacredSteelAxeT4,SacredSteelAxeT5,SacredSteelAxeT6,SacredSteelAxeT7,SacredSteelAxeT8,SacredSteelAxeT9,SacredSteelAxeT10" unlock_tier="1" />
+		</display_entry>
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="26,200" value="1" tags="
+			SacredStoneAxeT1,SacredStoneAxeT2,SacredStoneAxeT3,SacredStoneAxeT4,SacredStoneAxeT5,SacredStoneAxeT6,SacredStoneAxeT7,SacredStoneAxeT8,SacredStoneAxeT9,SacredStoneAxeT10,
+            SacredStoneShovelT1,SacredStoneShovelT2,SacredStoneShovelT3,SacredStoneShovelT4,SacredStoneShovelT5,SacredStoneShovelT6,SacredStoneShovelT7,SacredStoneShovelT8,SacredStoneShovelT9,SacredStoneShovelT10" />
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="76,200" value="1" tags="SacredIronAxeT1,SacredIronAxeT2,SacredIronAxeT3,SacredIronAxeT4,SacredIronAxeT5,SacredIronAxeT6,SacredIronAxeT7,SacredIronAxeT8,SacredIronAxeT9,SacredIronAxeT10,
+			SacredIronShovelT1,SacredIronShovelT2,SacredIronShovelT3,SacredIronShovelT4,SacredIronShovelT5,SacredIronShovelT6,SacredIronShovelT7,SacredIronShovelT8,SacredIronShovelT9,SacredIronShovelT10,
+			SacredIronPickaxeT1,SacredIronPickaxeT2,SacredIronPickaxeT3,SacredIronPickaxeT4,SacredIronPickaxeT5,SacredIronPickaxeT6,SacredIronPickaxeT7,SacredIronPickaxeT8,SacredIronPickaxeT9,SacredIronPickaxeT10" />
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="126,200" value="1" tags="SacredSteelAxeT1,SacredSteelAxeT2,SacredSteelAxeT3,SacredSteelAxeT4,SacredSteelAxeT5,SacredSteelAxeT6,SacredSteelAxeT7,SacredSteelAxeT8,SacredSteelAxeT9,SacredSteelAxeT10,
+			SacredSteelShovelT1,SacredSteelShovelT2,SacredSteelShovelT3,SacredSteelShovelT4,SacredSteelShovelT5,SacredSteelShovelT6,SacredSteelShovelT7,SacredSteelShovelT8,SacredSteelShovelT9,SacredSteelShovelT10,
+			SacredSteelPickaxeT1,SacredSteelPickaxeT2,SacredSteelPickaxeT3,SacredSteelPickaxeT4,SacredSteelPickaxeT5,SacredSteelPickaxeT6,SacredSteelPickaxeT7,SacredSteelPickaxeT8,SacredSteelPickaxeT9,SacredSteelPickaxeT10" />
+			<passive_effect name="CraftingTier" operation="base_add" level="30,35,40,45,50,200" value="1,2,3,4,5,5" tags="
+			SacredStoneAxeT1,SacredStoneAxeT2,SacredStoneAxeT3,SacredStoneAxeT4,SacredStoneAxeT5,SacredStoneAxeT6,SacredStoneAxeT7,SacredStoneAxeT8,SacredStoneAxeT9,SacredStoneAxeT10,
+            SacredStoneShovelT1,SacredStoneShovelT2,SacredStoneShovelT3,SacredStoneShovelT4,SacredStoneShovelT5,SacredStoneShovelT6,SacredStoneShovelT7,SacredStoneShovelT8,SacredStoneShovelT9,SacredStoneShovelT10" />
+			<passive_effect name="CraftingTier" operation="base_add" level="80,85,90,95,100,200" value="1,2,3,4,5,5" tags="
+			SacredIronAxeT1,SacredIronAxeT2,SacredIronAxeT3,SacredIronAxeT4,SacredIronAxeT5,SacredIronAxeT6,SacredIronAxeT7,SacredIronAxeT8,SacredIronAxeT9,SacredIronAxeT10,
+			SacredIronShovelT1,SacredIronShovelT2,SacredIronShovelT3,SacredIronShovelT4,SacredIronShovelT5,SacredIronShovelT6,SacredIronShovelT7,SacredIronShovelT8,SacredIronShovelT9,SacredIronShovelT10,
+			SacredIronPickaxeT1,SacredIronPickaxeT2,SacredIronPickaxeT3,SacredIronPickaxeT4,SacredIronPickaxeT5,SacredIronPickaxeT6,SacredIronPickaxeT7,SacredIronPickaxeT8,SacredIronPickaxeT9,SacredIronPickaxeT10" />
+			<passive_effect name="CraftingTier" operation="base_add" level="130,135,140,145,150,200" value="1,2,3,4,5,5" tags="
+			SacredSteelAxeT1,SacredSteelAxeT2,SacredSteelAxeT3,SacredSteelAxeT4,SacredSteelAxeT5,SacredSteelAxeT6,SacredSteelAxeT7,SacredSteelAxeT8,SacredSteelAxeT9,SacredSteelAxeT10,
+			SacredSteelShovelT1,SacredSteelShovelT2,SacredSteelShovelT3,SacredSteelShovelT4,SacredSteelShovelT5,SacredSteelShovelT6,SacredSteelShovelT7,SacredSteelShovelT8,SacredSteelShovelT9,SacredSteelShovelT10,
+			SacredSteelPickaxeT1,SacredSteelPickaxeT2,SacredSteelPickaxeT3,SacredSteelPickaxeT4,SacredSteelPickaxeT5,SacredSteelPickaxeT6,SacredSteelPickaxeT7,SacredSteelPickaxeT8,SacredSteelPickaxeT9,SacredSteelPickaxeT10" />
+		</effect_group>
+	</append>
+</configs>
